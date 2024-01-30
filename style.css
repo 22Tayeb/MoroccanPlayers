@@ -1,0 +1,38 @@
+
+h1, p, ul, li, img{
+    text-align: center;
+    list-style-position: inside;
+}
+
+header{
+    text-align: center;
+    
+}
+
+main{
+    /* display: block; */
+    text-align: center;
+    list-style-position: inside;
+}
+
+img{
+    width: 220px;
+    height: 220px;
+}
+
+nav{
+    display: block;
+    text-align: center;
+}
+
+#logo{
+  width: 80px;
+  height: 80px;
+  left: 44px;
+  position: absolute;
+}
+
+
+
+
+
