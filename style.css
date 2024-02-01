@@ -21,23 +21,49 @@ main{
     background-color: #FEFFFE;
 }
 
-
-
 img{
     width: 220px;
     height: 220px;
 }
 
-nav{
+.navbar{
     display: block;
     text-align: center;
+    background-color: black;
+    padding: 8px;
 }
 
-#logo{
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: red;
+}
+
+#logoA{
   width: 80px;
   height: 80px;
   left: 44px;
   position: absolute;
+  bottom: 83%;
+}
+
+#logoB{
+  width: 80px;
+  height: 80px;
+  left: 90%;
+  position: absolute;
+  bottom: 83%;
+}
+
+header{
+    background-color: black;
+}
+
+h1{
+    color: white;
 }
 
 .flex-columns{
@@ -63,5 +89,17 @@ h1{
 
 button{
     margin-left: 70px;
+    background-color: white;
+    color: green;
+    border: 2px solid green; /* Green */
+padding: 5px;
 }
 
+button:hover{
+     background-color: #04AA6D; /* Green */
+     color: white;
+}
+
+#Strikers, #Midfielders, #Defenders, #Goalkepers{
+    text-decoration: underline
+}

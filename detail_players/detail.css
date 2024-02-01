@@ -1,0 +1,16 @@
+h1, p, ul, li, h2, h3{
+    text-align: center;
+    list-style-position: inside;
+     list-style-type: none;
+}
+
+
+img{
+    width: 220px;
+    height: 220px;
+    text-align: center;
+}
+
+.titre-image-container{
+    text-align: center;
+}
