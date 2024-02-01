@@ -14,3 +14,16 @@ img{
 .titre-image-container{
     text-align: center;
 }
+
+button{
+    margin-left: 46%;
+    background-color: white;
+    color: green;
+    border: 2px solid green; /* Green */
+padding: 5px;
+}
+
+button:hover{
+     background-color: #04AA6D; /* Green */
+     color: white;
+}
