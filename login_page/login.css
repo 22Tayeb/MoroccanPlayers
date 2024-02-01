@@ -1,0 +1,75 @@
+h1{
+    font-size: 2em;
+    /* font-weight: 400; */
+}
+
+header{
+    background-color: black;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    padding: 28px;
+}
+
+#logoA{
+  width: 80px;
+  height: 80px;
+  left: 44px;
+  position: absolute;
+  bottom: 83%;
+}
+
+#logoB{
+  width: 80px;
+  height: 80px;
+  left: 90%;
+  position: absolute;
+  bottom: 83%;
+}
+
+.img-formulaire{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/Morocco_team.jpg");
+    background-size: cover;
+}
+
+/* img{
+    width: 220px;
+    height: 220px;
+} */
+
+footer{
+    text-align: center;
+}
+
+.formulaire{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     padding: 10px;
+    top: 50%;
+    left: 33em;
+     border-radius: 1%;
+    position: absolute;
+    opacity: 85%;  
+}
+
+
+.input-container{
+    margin-bottom: 15px;
+}
+.connexion{
+    display: flex;
+    justify-content: center;
+}
+
+
+#titreForm{
+    text-decoration: underline;
+}
+
