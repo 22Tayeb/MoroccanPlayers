@@ -103,3 +103,13 @@ button:hover{
 #Strikers, #Midfielders, #Defenders, #Goalkepers{
     text-decoration: underline
 }
+
+@media screen and (max-width: 760px) {
+/* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
+
+.flex-columns{
+    display: flex;
+    flex-direction: column;
+}
+
+}
